@@ -1,0 +1,8 @@
+import streamlit as st
+
+view = [100,150,30]
+st.write('# Youtube view')
+st.write('## raw')
+view
+st.write('## bar chart')
+st.bar_char(view)
